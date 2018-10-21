@@ -1,0 +1,12 @@
+@using DevExtremeMvcApp1.Models
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Home</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.Action("RichEditPartial")
+}
